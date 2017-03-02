@@ -1,0 +1,31 @@
+## Liste des liens utiles ##
+
+Titre : Cadastre.gouv.fr
+Url : http://cadastre.gouv.fr/
+Url logo : http://cadastre.gouv.fr/scpc/img/tit_home.gif
+Description :
+Ce service vous permet de rechercher, consulter et commander ces feuilles de plan du cadastre français.
+
+Titre : Geoportail
+Url : https://www.geoportail.gouv.fr/
+Url logo : https://www.geoportail.gouv.fr/assets/images/logo-geoportail.svg
+Description : 
+Portail  national de la connaissance du territoire mis en oeuvre par l'IGN (cartographie, données géographiques, photographies aériennes).
+
+Titre : Ministère de l'Environnement, de l'Energie et de la Mer
+Url : http://www.developpement-durable.gouv.fr/
+Url logo : http://www.developpement-durable.gouv.fr/themes/meem/medias/marianne.png
+Description :
+Portail du Ministère de l'Environnement, de l'Energie et de la Mer.
+
+Titre : Site des géomètres-experts
+Url : http://www.geometre-expert.fr/
+Url logo : http://www.geometre-expert.fr/upload/docs/image/png/2013-09//logo.png
+Description : 
+Tout sur la profession des géomètres-experts.
+
+Titre : 
+Url : 
+Url logo : 
+Description :
+
