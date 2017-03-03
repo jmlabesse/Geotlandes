@@ -1,13 +1,26 @@
 /* --- BOX PRESENTATION SECTIONS --- */
 
 
-/*.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}*/
+/* ----- CHOIX DES COULEURS ----- 
+--- titres : #19560f         
+--- backgrounds : #66e150      */
 
 .panel {
     margin: 0 20px;
+}
+.panel-info>.panel-heading {
+    color: #19560f;
+    background-color: #66e150;
+    background-image: linear-gradient(to bottom, #66e150 0, #a5ed99 100%);
+    border-color: #8ce87c;
+}
+.panel-info {
+    border-color: #8ce87c;
+}
+.panel-heading>h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+.panel-body>h4 {
+    margin-top: 0;
 }
