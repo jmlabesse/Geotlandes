@@ -2,24 +2,24 @@
 
 
 /* ----- CHOIX DES COULEURS ----- 
---- titres : #19560f         
---- backgrounds : #66e150      */
+--- titres : #37bb21         
+--- backgrounds : #a5ed99
+--- bordures : #a5ed99          */
 
 .panel {
     margin: 0 20px;
 }
-.panel-info>.panel-heading {
-    color: #19560f;
-    background-color: #66e150;
-    background-image: linear-gradient(to bottom, #66e150 0, #a5ed99 100%);
-    border-color: #8ce87c;
-}
 .panel-info {
-    border-color: #8ce87c;
+    border-color: #a5ed99;
+}
+.panel-info>.panel-heading {
+    color: #2b9019;
+    background-image: linear-gradient(to bottom, #a5ed99 0, #d8f7d2 100%);
+    border-color: #a5ed99;
 }
 .panel-heading>h3 {
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 600;
 }
 .panel-body>h4 {
     margin-top: 0;
