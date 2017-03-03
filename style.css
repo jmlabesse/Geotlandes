@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
 
 
@@ -5,4 +6,31 @@
 
 #slider img {
     width: 100%;
+=======
+/* --- BOX PRESENTATION SECTIONS --- */
+
+
+/* ----- CHOIX DES COULEURS ----- 
+--- titres : #37bb21         
+--- backgrounds : #a5ed99
+--- bordures : #a5ed99          */
+
+.panel {
+    margin: 0 20px;
+}
+.panel-info {
+    border-color: #a5ed99;
+}
+.panel-info>.panel-heading {
+    color: #2b9019;
+    background-image: linear-gradient(to bottom, #a5ed99 0, #d8f7d2 100%);
+    border-color: #a5ed99;
+}
+.panel-heading>h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.panel-body>h4 {
+    margin-top: 0;
+>>>>>>> feature_boxs_accueil
 }
