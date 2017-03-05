@@ -1,4 +1,3 @@
-
 /*couleur du Texte GEOLAND*/
 .navbar-inverse .navbar-brand {
     color: navajowhite;
@@ -31,3 +30,68 @@ footer {
     margin: 660px 100px;
     position: fixed;
 }
+
+/* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
+
+
+/* ----------- SLIDER ----------- */
+
+#slider img {
+    width: 100%;
+}
+
+/* --- BOX PRESENTATION SECTIONS --- 
+----- CHOIX DES COULEURS ----- 
+--- titres : #37bb21         
+--- backgrounds : #a5ed99
+--- bordures : #a5ed99          */
+
+.panel {
+    margin: 0 20px;
+}
+.panel-info {
+    border-color: #a5ed99;
+}
+.panel-info>.panel-heading {
+    color: #2b9019;
+    background-image: linear-gradient(to bottom, #a5ed99 0, #d8f7d2 100%);
+    border-color: #a5ed99;
+}
+.panel-heading>h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.panel-body>h4 {
+    margin-top: 0;
+}
+
+.titrePage
+{
+	height: 70px;
+	background-color: #d9ead3ff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 100px
+}
+
+.titrePage h1
+{
+	padding-top: 15px;
+	padding-left: 40px;
+}
+
+.carteVisite
+{
+	margin: 0px;
+}
+
+address
+{
+	color: #db78a1;
+}
+
+form
+{
+	color: #db78a1;
+}
+
