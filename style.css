@@ -31,3 +31,33 @@
 .panel-body>h4 {
     margin-top: 0;
 }
+
+.titrePage
+{
+	height: 70px;
+	background-color: #d9ead3ff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 100px
+}
+
+.titrePage h1
+{
+	padding-top: 15px;
+	padding-left: 40px;
+}
+
+.carteVisite
+{
+	margin: 0px;
+}
+
+address
+{
+	color: #db78a1;
+}
+
+form
+{
+	color: #db78a1;
+}
