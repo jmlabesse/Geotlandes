@@ -32,10 +32,10 @@ body {
 }
 
 /*position du footer*/
-footer {
-    /*margin: 660px 100px;
-    position: fixed;*/
-}
+/*footer {
+    margin: 660px 100px;
+    position: fixed;
+}*/
 
 /* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
 
@@ -74,7 +74,7 @@ footer {
 .titrePage
 {
 	height: 70px;
-	background-color: #d9ead3ff;
+	background-color: #D9EAD3FF;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border-radius: 100px
