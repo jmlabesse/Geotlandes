@@ -1,3 +1,9 @@
+/*décalage du body pour compenser
+la hauteur de la navbar*/
+body {
+    padding-top: 50px;
+}
+
 /*couleur du Texte GEOLAND*/
 .navbar-inverse .navbar-brand {
     color: navajowhite;
@@ -27,8 +33,8 @@
 
 /*position du footer*/
 footer {
-    margin: 660px 100px;
-    position: fixed;
+    /*margin: 660px 100px;
+    position: fixed;*/
 }
 
 /* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
@@ -95,3 +101,15 @@ form
 	color: #db78a1;
 }
 
+/* --- PAGE LIENS ---  */
+.media-left img {
+    width: 100px;
+}
+.link-unstyled, 
+.link-unstyled:hover,
+.link-unstyled:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* --- ???? ---  */
