@@ -15,15 +15,9 @@ body {
 }
 
 /*couleur du fond des boites*/
-.navbar-inverse {
-    background-image: -webkit-linear-gradient(top,green 0,green 100%);
-    background-image: -o-linear-gradient(top,green 0,green 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(green),to(green));
-    background-image: linear-gradient(to bottom,green 0,green 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    background-repeat: repeat-x;
-    border-radius: 4px;
+.navbar .navbar-default .navbar-fixed-top {
+    
+    background-color: #c8f7ec;
 }
 
 /*couleur des textes services en mode mini*/
@@ -32,10 +26,13 @@ body {
 }
 
 /*position du footer*/
-/*footer {
-    margin: 660px 100px;
-    position: fixed;
-}*/
+.footer {
+/*    margin: 660px 100px;
+    position: fixed;*/
+    background-color:#c8f7ec;
+    color: #127c63; 
+    padding: 20px;
+}
 
 /* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
 
