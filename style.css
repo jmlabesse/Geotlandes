@@ -27,12 +27,31 @@ body {
 
 /*position du footer*/
 .footer {
-/*    margin: 660px 100px;
-    position: fixed;*/
+    margin-top: 20px;
     background-color:#c8f7ec;
     color: #127c63; 
     padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
+.footer p {
+    margin: 0;
+}
+.copyright {
+    font-size:14px;
+}
+.res-soc {
+    padding-top: 0;
+}
+.min-icon {
+    width:25px;
+}
+.footer .nav>li>a:focus, 
+.footer .nav>li>a:hover {
+    background-color:#c8f7ec;
+}
+
+
 
 /* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
 
