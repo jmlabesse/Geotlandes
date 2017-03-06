@@ -1,3 +1,7 @@
+
+/* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
+
+
 /*décalage du body pour compenser
 la hauteur de la navbar*/
 body {
@@ -25,35 +29,39 @@ body {
     color: #9d9d9d;
 }
 
-/*position du footer*/
+/* FOOTER */
 .footer {
     margin-top: 20px;
     background-color:#c8f7ec;
-    color: #127c63; 
-    padding: 20px;
-    font-size: 18px;
-    font-weight: bold;
+    padding: 10px;
+    color: #127c63;
 }
-.footer p {
+.footer .copyright {
     margin: 0;
+    padding-top: 15px;
+    font-weight: 500;
 }
-.copyright {
-    font-size:14px;
+@media (max-width: 768px) {
+    .footer .copyright {
+        text-align: center;
+    }
 }
-.res-soc {
-    padding-top: 0;
+.footer .res-soc {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
 }
-.min-icon {
-    width:25px;
+.footer .res-soc-link:first-child {
+    margin-right: 50px;
 }
-.footer .nav>li>a:focus, 
-.footer .nav>li>a:hover {
-    background-color:#c8f7ec;
+.footer .res-soc-link img {
+    width: 40px;
+    border-radius: 20px;
 }
+/* FIN FOOTER */
 
 
-
-/* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
 
 
 /* ----------- SLIDER ----------- */
