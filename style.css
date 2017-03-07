@@ -6,7 +6,7 @@
 }
 
 .navbar-default {
-    background: linear-gradient(to right, lightseagreen, #c8f7ec 10%);
+    background-color: #c8f7ec;
     margin-bottom: 0;
     border: 0px;
 }
@@ -75,7 +75,6 @@
 
 /* FIN FOOTER */
 
-
 /* ----------- SLIDER ----------- */
 
 #mySlider img {
@@ -105,29 +104,14 @@
     margin-top: 0;
 }
 
-.titrePage {
-    height: 70px;
-    background-color: #D9EAD3FF;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 100px
+.carteVisite
+{
+	margin: 0px;
 }
 
-.titrePage h1 {
-    padding-top: 15px;
-    padding-left: 40px;
-}
-
-.carteVisite {
-    margin: 0px;
-}
-
-address {
-    color: #db78a1;
-}
-
-form {
-    color: #db78a1;
+.carteVisite h2
+{
+	margin-top: 0px;
 }
 
 
