@@ -125,7 +125,8 @@ form
 } 
 .link-unstyled, 
 .link-unstyled:hover,
-.link-unstyled:visited {
+.link-unstyled:visited,
+.link-unstyled:focus {
     text-decoration: none;
     color: inherit;
 }
