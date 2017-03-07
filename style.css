@@ -88,34 +88,14 @@
     margin-top: 0;
 }
 
-.titrePage
-{
-	height: 70px;
-	background-color: #D9EAD3FF;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	border-radius: 100px
-}
-
-.titrePage h1
-{
-	padding-top: 15px;
-	padding-left: 40px;
-}
-
 .carteVisite
 {
 	margin: 0px;
 }
 
-address
+.carteVisite h2
 {
-	color: #db78a1;
-}
-
-form
-{
-	color: #db78a1;
+	margin-top: 0px;
 }
 
 /* --- PAGE LIENS / PAGE CLIENTS ---  */
