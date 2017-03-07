@@ -64,8 +64,8 @@
 }
 /* FIN FOOTER */
 
-#mySlider img {
 /* ----------- SLIDER ----------- */
+#mySlider img {
     width: 100%;
 }
 
@@ -119,7 +119,7 @@ form
 }
 
 /* --- PAGE LIENS / PAGE CLIENTS ---  */
-/* .media-left img {
+.media-left img {
     width: 100px;
     max-height: 80px;
 } 
@@ -136,4 +136,4 @@ overflow: hidden;
 .list-links-col {
  margin-bottom: -99999px;
  padding-bottom: 99999px;
-}*/
+}
