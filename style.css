@@ -1,32 +1,14 @@
 
+.navbar-default .navbar-nav > li > a
+{
+	font-size: large;
+	color: #000000;
+
 /* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
 
-
-/*décalage du body pour compenser
-la hauteur de la navbar*/
-body {
-    padding-top: 50px;
-}
-
-/*couleur du Texte GEOLAND*/
-.navbar-inverse .navbar-brand {
-    color: navajowhite;
-}
-
-/*couleur des textes du menu*/
-.navbar-inverse .navbar-nav>li>a {
-    color: black;
-}
-
-/*couleur du fond des boites*/
-.navbar .navbar-default .navbar-fixed-top {
-    
-    background-color: #c8f7ec;
-}
-
-/*couleur des textes services en mode mini*/
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-    color: #9d9d9d;
+.navbar-default
+{
+	background-color: #C8F7EC;
 }
 
 /* FOOTER */
@@ -34,7 +16,26 @@ body {
     margin-top: 20px;
     background-color:#c8f7ec;
     padding: 10px;
-    color: #127c63;
+    color: #000000;
+}
+.footer .copyright {
+    margin: 0;
+    padding-top: 15px;
+    font-weight: 500;
+}
+@media (max-width: 768px) {
+    .footer .copyright {
+        text-align: center;
+    }
+}
+.footer .res-soc {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer .res-soc-link:first-child {
+    margin-right: 50px;
 }
 .footer .copyright {
     margin: 0;
@@ -61,20 +62,10 @@ body {
 }
 /* FIN FOOTER */
 
-
-
-
+#mySlider img {
 /* ----------- SLIDER ----------- */
-
-#slider img {
     width: 100%;
 }
-
-/* --- BOX PRESENTATION SECTIONS --- 
------ CHOIX DES COULEURS ----- 
---- titres : #37bb21         
---- backgrounds : #a5ed99
---- bordures : #a5ed99          */
 
 .panel {
     margin: 0 20px;
@@ -126,10 +117,10 @@ form
 }
 
 /* --- PAGE LIENS / PAGE CLIENTS ---  */
-.media-left img {
+/* .media-left img {
     width: 100px;
     max-height: 80px;
-}
+} 
 .link-unstyled, 
 .link-unstyled:hover,
 .link-unstyled:visited {
@@ -143,6 +134,4 @@ overflow: hidden;
 .list-links-col {
  margin-bottom: -99999px;
  padding-bottom: 99999px;
-}
-
-/* --- PAGE ???? ---  */
+}*/
