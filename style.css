@@ -1,18 +1,14 @@
+
 .navbar-default .navbar-nav > li > a
 {
 	font-size: large;
 	color: #000000;
-}
+
+/* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
 
 .navbar-default
 {
 	background-color: #C8F7EC;
-}
-
-.navbar
-{
-	margin-bottom: 0;
-
 }
 
 /* FOOTER */
@@ -41,6 +37,25 @@
 .footer .res-soc-link:first-child {
     margin-right: 50px;
 }
+.footer .copyright {
+    margin: 0;
+    padding-top: 15px;
+    font-weight: 500;
+}
+@media (max-width: 768px) {
+    .footer .copyright {
+        text-align: center;
+    }
+}
+.footer .res-soc {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer .res-soc-link:first-child {
+    margin-right: 50px;
+}
 .footer .res-soc-link img {
     width: 40px;
     border-radius: 20px;
@@ -48,6 +63,7 @@
 /* FIN FOOTER */
 
 #mySlider img {
+/* ----------- SLIDER ----------- */
     width: 100%;
 }
 
@@ -73,7 +89,7 @@
 .titrePage
 {
 	height: 70px;
-	background-color: #d9ead3ff;
+	background-color: #D9EAD3FF;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border-radius: 100px
@@ -100,3 +116,22 @@ form
 	color: #db78a1;
 }
 
+/* --- PAGE LIENS / PAGE CLIENTS ---  */
+/* .media-left img {
+    width: 100px;
+    max-height: 80px;
+} 
+.link-unstyled, 
+.link-unstyled:hover,
+.link-unstyled:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.list-links-row {
+overflow: hidden;
+}
+.list-links-col {
+ margin-bottom: -99999px;
+ padding-bottom: 99999px;
+}*/
