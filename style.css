@@ -117,8 +117,30 @@
     padding-bottom: 99999px;
 }
 
+/* --- PAGE SERVICES --- */
 .boutonDevis
 {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.service img {
+    width: 100%;
+    margin: auto;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row-eq-height > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-service {
+    margin-bottom: 20px;
 }
