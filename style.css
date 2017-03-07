@@ -154,3 +154,26 @@ form {
     margin-bottom: -99999px;
     padding-bottom: 99999px;
 }
+
+/* --- PAGE SERVICES --- */
+
+.service img {
+    width: 100%;
+    margin: auto;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row-eq-height > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-service {
+    margin-bottom: 20px;
+}
