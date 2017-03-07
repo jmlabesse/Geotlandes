@@ -1,70 +1,84 @@
 
-.navbar-default .navbar-nav > li > a
-{
-	font-size: large;
-	color: #000000;
-}
-
 /* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
 
-.navbar-default
-{
-	background-color: #C8F7EC;
-	margin-bottom: 0;
+.navbar-default .navbar-nav>li>a {
+    font-size: large;
+    color: #000000;
 }
 
+
+.navbar-default {
+    background: linear-gradient(deepskyblue, dodgerblue);
+    margin-bottom: 0;
+}
+
+
 /* FOOTER */
+
 .footer {
     margin-top: 20px;
-    background-color:#c8f7ec;
+    background-color: #c8f7ec;
     padding: 10px;
     color: #000000;
 }
+
 .footer .copyright {
     margin: 0;
     padding-top: 15px;
     font-weight: 500;
 }
+
 @media (max-width: 768px) {
     .footer .copyright {
         text-align: center;
     }
 }
+
 .footer .res-soc {
     margin: 0 0 10px 0;
     padding: 0;
     font-size: 16px;
     font-weight: 700;
 }
+
 .footer .res-soc-link:first-child {
     margin-right: 50px;
 }
+
 .footer .copyright {
     margin: 0;
     padding-top: 15px;
     font-weight: 500;
 }
+
 @media (max-width: 768px) {
     .footer .copyright {
         text-align: center;
     }
 }
+
 .footer .res-soc {
     margin: 0 0 10px 0;
     padding: 0;
     font-size: 16px;
     font-weight: 700;
 }
+
 .footer .res-soc-link:first-child {
     margin-right: 50px;
 }
+
 .footer .res-soc-link img {
     width: 40px;
     border-radius: 20px;
 }
+
+
 /* FIN FOOTER */
 
+
 /* ----------- SLIDER ----------- */
+
 #mySlider img {
     width: 100%;
 }
@@ -72,58 +86,60 @@
 .panel {
     margin: 0 20px;
 }
+
 .panel-info {
     border-color: #a5ed99;
 }
+
 .panel-info>.panel-heading {
     color: #2b9019;
     background-image: linear-gradient(to bottom, #a5ed99 0, #d8f7d2 100%);
     border-color: #a5ed99;
 }
+
 .panel-heading>h3 {
     font-size: 18px;
     font-weight: 600;
 }
+
 .panel-body>h4 {
     margin-top: 0;
 }
 
-.titrePage
-{
-	height: 70px;
-	background-color: #D9EAD3FF;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	border-radius: 100px
+.titrePage {
+    height: 70px;
+    background-color: #D9EAD3FF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 100px
 }
 
-.titrePage h1
-{
-	padding-top: 15px;
-	padding-left: 40px;
+.titrePage h1 {
+    padding-top: 15px;
+    padding-left: 40px;
 }
 
-.carteVisite
-{
-	margin: 0px;
+.carteVisite {
+    margin: 0px;
 }
 
-address
-{
-	color: #db78a1;
+address {
+    color: #db78a1;
 }
 
-form
-{
-	color: #db78a1;
+form {
+    color: #db78a1;
 }
+
 
 /* --- PAGE LIENS / PAGE CLIENTS ---  */
+
 .media-left img {
     width: 100px;
     max-height: 80px;
-} 
-.link-unstyled, 
+}
+
+.link-unstyled,
 .link-unstyled:hover,
 .link-unstyled:visited,
 .link-unstyled:focus {
@@ -132,9 +148,10 @@ form
 }
 
 .list-links-row {
-overflow: hidden;
+    overflow: hidden;
 }
+
 .list-links-col {
- margin-bottom: -99999px;
- padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
