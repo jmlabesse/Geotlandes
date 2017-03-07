@@ -1,50 +1,55 @@
-/*couleur du Texte GEOLAND*/
-.navbar-inverse .navbar-brand {
-    color: navajowhite;
+.navbar-default .navbar-nav > li > a
+{
+	font-size: large;
+	color: #000000;
 }
 
-/*couleur des textes du menu*/
-.navbar-inverse .navbar-nav>li>a {
-    color: black;
+.navbar-default
+{
+	background-color: #C8F7EC;
 }
 
-/*couleur du fond des boites*/
-.navbar-inverse {
-    background-image: -webkit-linear-gradient(top,green 0,green 100%);
-    background-image: -o-linear-gradient(top,green 0,green 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(green),to(green));
-    background-image: linear-gradient(to bottom,green 0,green 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    background-repeat: repeat-x;
-    border-radius: 4px;
+.navbar
+{
+	margin-bottom: 0;
+
 }
 
-/*couleur des textes services en mode mini*/
-.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
-    color: #9d9d9d;
+/* FOOTER */
+.footer {
+    margin-top: 20px;
+    background-color:#c8f7ec;
+    padding: 10px;
+    color: #000000;
 }
-
-/*position du footer*/
-footer {
-    margin: 660px 100px;
-    position: fixed;
+.footer .copyright {
+    margin: 0;
+    padding-top: 15px;
+    font-weight: 500;
 }
+@media (max-width: 768px) {
+    .footer .copyright {
+        text-align: center;
+    }
+}
+.footer .res-soc {
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer .res-soc-link:first-child {
+    margin-right: 50px;
+}
+.footer .res-soc-link img {
+    width: 40px;
+    border-radius: 20px;
+}
+/* FIN FOOTER */
 
-/* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
-
-
-/* ----------- SLIDER ----------- */
-
-#slider img {
+#mySlider img {
     width: 100%;
 }
-
-/* --- BOX PRESENTATION SECTIONS --- 
------ CHOIX DES COULEURS ----- 
---- titres : #37bb21         
---- backgrounds : #a5ed99
---- bordures : #a5ed99          */
 
 .panel {
     margin: 0 20px;
