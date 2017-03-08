@@ -1,6 +1,23 @@
 /* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
 
+.navbar-brand {
+	height: 90px;
+	padding: 0;
+}
+.navbar-brand>img {
+	height: 100%;
+	padding: 7px 15px;
+	width: auto;
+}
+
+.navbar-toggle {
+	padding: 10px;
+	margin: 25px 15px 25px 0;
+}
+
 .navbar-default .navbar-nav>li>a {
+	padding-top: 35px;
+	padding-bottom: 35px;
     font-size: large;
     color: #000000;
 }
@@ -8,6 +25,8 @@
 .navbar-default {
     background: #c8f7ec 10%;
     margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 0px;
 }
 
