@@ -142,12 +142,15 @@
 .boutonDevis
 {
 	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .service img {
     width: 100%;
     margin: auto;
+}
+.img-service {
+    margin-bottom: 20px;
 }
 
 .row-eq-height {
