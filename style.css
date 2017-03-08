@@ -173,7 +173,7 @@
 
 @media screen and (max-width: 992px)
 {
-.checkbox, .radio {
-    margin-top: -15px;
-}
+  .checkbox, .radio {
+      margin-top: -15px;
+  }
 }
