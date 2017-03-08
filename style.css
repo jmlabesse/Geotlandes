@@ -167,3 +167,12 @@
 .intro-service {
     margin-bottom: 20px;
 }
+
+/* --- PAGE CONTACT --- */
+
+@media screen and (max-width: 992px)
+{
+  .checkbox, .radio {
+      margin-top: -15px;
+  }
+}
