@@ -6,11 +6,33 @@
 }
 
 .navbar-default {
-    background-color: #c8f7ec;
+    background: linear-gradient(to right, lightseagreen, #c8f7ec 10%);
     margin-bottom: 0;
     border: 0px;
 }
 
+
+/* ----- PAGE ACCUEIL ----- */
+
+.media-heading {
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 9px;
+}
+
+.page-header {
+    padding-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    float: right;
+}
+
+.pager {
+    border-color: #2e6da4;
+    float: right;
+}
 
 /* FOOTER */
 
@@ -75,6 +97,7 @@
 
 /* FIN FOOTER */
 
+
 /* ----------- SLIDER ----------- */
 
 #mySlider img {
@@ -82,14 +105,12 @@
 }
 
 
-.carteVisite
-{
-	margin: 0px;
+.carteVisite {
+    margin: 0px;
 }
 
-.carteVisite h2
-{
-	margin-top: 0px;
+.carteVisite h2 {
+    margin-top: 0px;
 }
 
 
