@@ -141,3 +141,19 @@ h1, h2, h3, h4 {
 .intro-service {
     margin-bottom: 20px;
 }
+
+.navbar-default {
+background: #e6f4f1; /* Old browsers */
+background: -moz-linear-gradient(top, #e6f4f1 0%, #c8f7ec 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e6f4f1 0%,#c8f7ec 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e6f4f1 0%,#c8f7ec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6f4f1', endColorstr='#c8f7ec',GradientType=0 ); /* IE6-9 */
+}
+
+.footer {
+background: #c8f7ec; /* Old browsers */
+background: -moz-linear-gradient(top, #c8f7ec 0%, #e6f4f1 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #c8f7ec 0%,#e6f4f1 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #c8f7ec 0%,#e6f4f1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c8f7ec', endColorstr='#e6f4f1',GradientType=0 ); /* IE6-9 */
+}
