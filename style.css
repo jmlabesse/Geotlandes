@@ -1,3 +1,5 @@
+/* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
+
 /* ---- POLICE PERSONNALISEE -------------- */
 body {
     font-family: 'Open Sans', sans-serif;
@@ -6,8 +8,7 @@ h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
 }
 
-/* ---- FEUILLE DE STYLE PERSONNALISEE ---- */
-
+/* ---- BARRE DE NAVIGATION --------------- */
 .navbar-brand {
 	height: 90px;
 	padding: 0;
@@ -17,19 +18,16 @@ h1, h2, h3, h4 {
 	padding: 7px 15px;
 	width: auto;
 }
-
 .navbar-toggle {
 	padding: 10px;
 	margin: 25px 15px 25px 0;
 }
-
 .navbar-default .navbar-nav>li>a {
 	padding-top: 35px;
 	padding-bottom: 35px;
     font-size: large;
     color: #000000;
 }
-
 .navbar-default {
     background: #c8f7ec 10%;
     margin-bottom: 0;
@@ -38,25 +36,20 @@ h1, h2, h3, h4 {
     border: 0px;
 }
 
-
-/* ----- PAGE ACCUEIL ----- */
-
+/* ---- PAGE ACCUEIL -------------------- */
 .media-heading {
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 9px;
 }
-
 .page-header {
     padding-bottom: 15px;
 }
-
 .pager {
     border-color: #2e6da4;
     float: right;
 }
 
-/* FOOTER */
-
+/* ---- FOOTER -------------------------- */
 .footer {
     margin-top: 20px;
     background-color: #c8f7ec;
@@ -66,62 +59,48 @@ h1, h2, h3, h4 {
     padding-bottom: 20px;
     color: #000000;
 }
-
 .footer .copyright {
     margin: 0;
     padding-top: 15px;
     font-weight: 500;
 }
-
 @media (max-width: 768px) {
     .footer .copyright {
         text-align: center;
     }
 }
-
 .footer .res-soc {
     margin: 0 0 10px 0;
     padding: 0;
     font-size: 110%;
     font-weight: 700;
 }
-
 .footer .res-soc-link:first-child {
     margin-right: 50px;
 }
-
 .footer .res-soc-link img {
     width: 40px;
     border-radius: 20px;
 }
 
-
-/* FIN FOOTER */
-
-
-/* ----------- SLIDER ----------- */
-
-#mySlider img {
+/* ---- SLIDER ---------------------- */
+#mySlider img,
+#mySliderXS img {
     width: 100%;
+    margin-bottom: 0;
 }
-
-
 .carteVisite {
     margin: 0px;
 }
-
 .carteVisite h2 {
     margin-top: 0px;
 }
 
-
-/* --- PAGE LIENS / PAGE CLIENTS ---  */
-
+/* ---- PAGE LIENS / PAGE CLIENTS ----- */
 .media-left img {
     width: 100px;
     max-height: 80px;
 }
-
 .link-unstyled,
 .link-unstyled:hover,
 .link-unstyled:visited,
@@ -129,14 +108,18 @@ h1, h2, h3, h4 {
     text-decoration: none;
     color: inherit;
 }
+.visible-xs img {
+    max-width: 100px;
+    max-height: 10  0px;
+    margin-bottom: 10px;
+}
 
-/* --- PAGE SERVICES --- */
+/* ---- PAGE SERVICES ----------------- */
 .boutonDevis
 {
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
-
 .service img {
     width: 100%;
     margin: auto;
@@ -144,7 +127,6 @@ h1, h2, h3, h4 {
 .img-service {
     margin-bottom: 20px;
 }
-
 .row-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
@@ -156,13 +138,6 @@ h1, h2, h3, h4 {
   display: flex;
   flex-direction: column;
 }
-
 .intro-service {
     margin-bottom: 20px;
-}
-
-.visible-xs img {
-    max-width: 100px;
-    max-height: 10  0px;
-    margin-bottom: 10px;
 }
