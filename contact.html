@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Géotlandes - Contact</title>
 	<meta name="description" content="Cabinet de géomètre expert" />
 	<meta name="keywords" content="" />
@@ -12,19 +12,19 @@
 	<link rel="icon" type="image/png" href="img/favicomatic/favicon-16x16.png" sizes="16x16" />
 	<link rel="icon" href="img/favicomatic/favicon.ico" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-	    crossorigin="anonymous" type="text/css">
+	 crossorigin="anonymous" type="text/css">
 	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
 
 	<!-- Navbar -->
-	<header class="container-fluid">
+	<header id="barre-nav" class="container-fluid">
 		<div class="row">
 			<nav class="navbar navbar-default">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html" title="Accueil"><img src="images_existantes/images/logo.png" class="img-responsive"  alt="Geotlandes"></a>
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<a class="navbar-brand" href="index.html" title="Accueil"><img src="images_existantes/images/logo.png" class="img-responsive" alt="Geotlandes"></a>
+					<button type="button" id="btn-nav" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Choisir la navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -146,11 +146,13 @@
 								<strong>Cécile Bibette - Géomètre expert DPLG</strong><br> 29, place de l'église<br> 40210 Pissos - FRANCE
 							</address>
 							<address>
-								<strong><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> Téléphone :</strong> 05 58 04 73 40 <br>
+								<strong><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> Téléphone :</strong> 05 58 04 73 40
+								<br>
 								<strong><span class="glyphicon glyphicon-print" aria-hidden="true"></span> Fax :</strong> 05 58 07 38 85 <br>
 								<strong><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> Portable :</strong> 06 72 45 47 15 <br>
 								<strong><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email :</strong> <a href="mailto:cecile-bibette@orange.fr">cecile-bibette@orange.fr</a><br>
-								<strong><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Horaires :</strong> du lundi au vendredi de 09h00 à 18h00
+								<strong><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Horaires :</strong> du lundi au vendredi
+								de 09h00 à 18h00
 							</address>
 						</div>
 					</div>
@@ -158,7 +160,7 @@
 			</div>
 			<div class="col-sm-6 col-sm-pull-6">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2855.07363438334!2d-0.7795998489628044!3d44.30843671772849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd545a3b8951870f%3A0x1cf10962d8dfd074!2s29+Place+de+l&#39;%C3%89glise%2C+40410+Pissos!5e0!3m2!1sfr!2sfr!4v1488448887199"
-				    width="100%" height="405px" frameborder="0" style="border:0" allowfullscreen></iframe>
+				 width="100%" height="405px" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
 
@@ -215,9 +217,11 @@
 	</footer>
 	<!-- Fin Pied de page -->
 
+	<div id="fond-modal" class="masque"></div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	<script src="fond_modal.js"></script>
 </body>
 
 </html>
