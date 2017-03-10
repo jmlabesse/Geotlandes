@@ -8,4 +8,3 @@ btn.addEventListener('click', function (e) {
     $(modal).toggleClass("affiche");
 
 });
-
